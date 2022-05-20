@@ -557,6 +557,16 @@ input{
 .footer__moblie{
     display: none;
 }
+.footer__socialmedia{
+    display: flex;
+    justify-content: center;
+}
+.footer__social{
+    margin-bottom: 1.5rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    text-align: center;
+}
 @media screen and (max-width:900px) {
     .footer{
         display: none !important;
@@ -589,16 +599,6 @@ input{
     }
     .footer__content__second{
         margin-left: 2rem;
-    }
-    .footer__socialmedia{
-        display: flex;
-        justify-content: center;
-    }
-    .footer__social{
-        margin-bottom: 1.5rem;
-        margin-left: 1rem;
-        margin-right: 1rem;
-        text-align: center;
     }
     .footer__logo{
         text-align: center;
